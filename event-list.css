@@ -1,0 +1,50 @@
+/* Media queries for responsive design */
+/* Used specifically with the [event_list] shortcode
+/* Used by event-list-homepage.php and datetime.php
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .events-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .event {
+        width: calc(48% - 30px);
+        margin-bottom: 20px; /* Adjusted margin for additional spacing between columns */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .event {
+        width: calc(100% - 60px);
+    }
+}
+
+/* Additional media query for tablets - assuming tablets have a max-width between 768px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .events-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .event {
+        width: calc(46% - 30px);
+        margin-bottom: 20px; /* Adjusted margin for additional spacing between columns */
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .events-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .event {
+        width: calc(33.33% - 60px);
+        margin-bottom: 0; /* Reset margin for larger screens */
+    }
+}
+/* End CSS for [event_list] shortcode */
