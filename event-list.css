@@ -1,5 +1,6 @@
 /* Media queries for responsive design */
 /* Used specifically with the [event_list] shortcode
+/* Creates the responsive display for PC, tablet, and phone viewports
 /* Used by event-list-homepage.php and datetime.php
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
