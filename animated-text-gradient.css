@@ -1,0 +1,15 @@
+/* Animated text gradient color */
+/* Causes font-color to gradually change */
+/* Currently being used on homepage, top of page */
+/* Use span tags <span class="gradient-text">text here</span>
+
+@keyframes textGradient {
+  0% { color: #dde5ce; } /* Start color */
+  50% { color: #ebe799; } /* Middle color */
+  100% { color: #dde5ce; } /* End color */
+}
+
+.gradient-text {
+  animation: textGradient 10s infinite; /* Adjust duration as needed */
+}
+/* end animated text gradient */
