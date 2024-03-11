@@ -1,6 +1,6 @@
 // Function to generate Google Map Address shortcode [google_map_address]
 // This shortcode extracts the place name, street address, city, state, zip from the Google Map field in ACF and displays it.
-// Variable "location" refers to the ACF field key for the Google Map field type.
+// Variable "location" refers to the ACF field key for the "events" custom post type.
 // This is used in the "events" Single Post element.
 
 function display_google_map_address() {
